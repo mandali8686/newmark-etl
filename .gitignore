@@ -1,0 +1,97 @@
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+venv/
+.venv/
+.env
+.env.*
+
+# Django specific
+*.mo
+*.log
+*.pid
+*.lock
+*.pot
+*.py,cover
+local_settings.py
+settings_local.py
+celerybeat-schedule
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.idea/
+
+# === Node / React / Vite ===
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.vite/
+*.local
+*.tsbuildinfo
+
+# npm/yarn/pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# === Misc ===
+# Editor backups / envs / exports
+*.envrc
+.env.bak
+.env.local
+*.csv
+*.xlsx
+*.pdf
+*.zip
+*.tar
+*.gz
+
+# === Frontend Artifacts ===
+frontend/.env
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+
+# === Backend Artifacts ===
+backend/.env
+backend/__pycache__/
+backend/db.sqlite3
+backend/media/
+backend/static/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/htmlcov/
